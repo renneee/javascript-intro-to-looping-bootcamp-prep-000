@@ -11,8 +11,9 @@ return array
 
 function whileLoop (number) {
   let number = 40;
-  while (countdown > 0) {
-    console.log(--countdown)
+  while (number > 0) {
+    console.log(--number)
   }
-  return number, "done"
+  return "done"
 }
+
