@@ -10,9 +10,10 @@ return array
 }
 
 function whileLoop (number) {
-  let number = 40;
   while (number > 0) {
     console.log(--number)
   }
-  return "done"
+  
+  return 'done'
 }
+
